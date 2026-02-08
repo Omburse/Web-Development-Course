@@ -3,33 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>level 3</title>
+    <title>Form</title>
 </head>
 <body>
-    <form>
-        <div>
-            <label for="Username">Username : </label>
-            <input type="text" placeholder="Enter youe name" id="Username" >
-        </div>
+    
+    <br>
+    <fieldset>
+        <legend >Student Informetion : </legend>
+        <label for="Last">User Id:</label>
+        <input type="text" id="Last" placeholder="Enter your Id" name="uid">
         <br>
-        <div>
-            <label for="Password">Password : </label>
-            <input type="password" placeholder="Enter youe Password" id="Password" >
-        </div>
         <br>
-        <div>
-            <label for="age">age : </label>
-            <input type="number" placeholder="Enter youe number" id="age" >
-        </div>
-        <div>
-            <label for="submit">submit : </label>
-            <input type="submit" placeholder="click me" id="submit">
-        </div>
-        <div>
-            <label for="reset">reset : </label>
-            <input type="reset" placeholder="click me" id="reset">
-        </div>
-        <input type="button" value="click me">
-    </form>
+        <!--
+            <label for="Om">Enter Name</label>
+            <input type="text" Value="Om" id="Om">
+            -->
+            <label for="Name">Password:</label>
+            <input type="password" id="Name" placeholder="Enter your Password" name="password">
+            <br>
+            <br>
+            <label for="check">Male:</label>
+            <input type="checkbox" id="check">
+            <br>
+            <br>
+            <label for="Fcheck">Female:</label>
+            <input type="checkbox" id="Fcheck">
+            <br>
+            <br>
+            <input type="datetime-local">
+            <br>
+            <br>
+            <label for="email">Enter Mail:</label>
+            <input type="email" id="email" placeholder="Enter your Email">
+            <br>
+            <br>
+            <label for="city">Enter your City</label>
+            <select name="City" id="city">
+                <option valnue="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Hydrabad">Hydrabad</option>
+                <option valnue="Nashik">Nashik</option>
+                <option value="Aurgabad">Aurgabad</option>
+                <option value="Latur">Latur</option>
+            </select>
+            <br>
+            <br>
+            <label for="textarea">Feedback:</label>
+            <br>
+            <textarea name="Message" id="textarea" cols="20" rows="2">
+                
+            </textarea>
+            <br>
+            <br>
+            
+            <button >Submit</button>
+        </fieldset>
 </body>
 </html>
